@@ -1,0 +1,96 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CombinedAPISample - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/CombinedAPISample.res" /d "_DEBUG" /d "_AFXDLL" "G:\myself\CombinedAPISample\CombinedAPISample\CombinedAPISample.rc"" 
+Creating temporary file "C:\Users\HOUZEN~1\AppData\Local\Temp\RSP4BE8.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/CombinedAPISample.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"G:\myself\CombinedAPISample\CombinedAPISample\CombinedAPISampleDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\HOUZEN~1\AppData\Local\Temp\RSP4BE8.tmp" 
+Creating temporary file "C:\Users\HOUZEN~1\AppData\Local\Temp\RSP4BF8.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/CombinedAPISample.pdb" /debug /machine:I386 /out:"Debug/CombinedAPISample.exe" /pdbtype:sept 
+.\Debug\CombinedAPISample.obj
+.\Debug\CombinedAPISampleDlg.obj
+.\Debug\Comm32.obj
+.\Debug\CommandConstruction.obj
+.\Debug\CommandHandling.obj
+.\Debug\ComPortSettings.obj
+.\Debug\ComPortTimeout.obj
+.\Debug\Conversions.obj
+.\Debug\IlluminatorFiringRate.obj
+.\Debug\INIFileRW.obj
+.\Debug\NewAlertFlagsDlg.obj
+.\Debug\ProgramOptions.obj
+.\Debug\ROMFileDlg.obj
+.\Debug\StdAfx.obj
+.\Debug\SystemCRC.obj
+.\Debug\SystemFeaturesDlg.obj
+.\Debug\CombinedAPISample.res
+]
+Creating command line "link.exe @C:\Users\HOUZEN~1\AppData\Local\Temp\RSP4BF8.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+CombinedAPISampleDlg.cpp
+G:\myself\CombinedAPISample\CombinedAPISample\CombinedAPISampleDlg.cpp(334) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+G:\myself\CombinedAPISample\CombinedAPISample\CombinedAPISampleDlg.cpp(335) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+G:\myself\CombinedAPISample\CombinedAPISample\CombinedAPISampleDlg.cpp(337) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+G:\myself\CombinedAPISample\CombinedAPISample\CombinedAPISampleDlg.cpp(1817) : warning C4305: '=' : truncation from 'const double' to 'float'
+G:\myself\CombinedAPISample\CombinedAPISample\CombinedAPISampleDlg.cpp(1817) : warning C4305: '=' : truncation from 'const double' to 'float'
+G:\myself\CombinedAPISample\CombinedAPISample\CombinedAPISampleDlg.cpp(1817) : warning C4305: '=' : truncation from 'const double' to 'float'
+G:\myself\CombinedAPISample\CombinedAPISample\CombinedAPISampleDlg.cpp(1818) : warning C4305: '=' : truncation from 'const double' to 'float'
+G:\myself\CombinedAPISample\CombinedAPISample\CombinedAPISampleDlg.cpp(1818) : warning C4305: '=' : truncation from 'const double' to 'float'
+G:\myself\CombinedAPISample\CombinedAPISample\CombinedAPISampleDlg.cpp(1839) : warning C4305: '=' : truncation from 'const double' to 'float'
+G:\myself\CombinedAPISample\CombinedAPISample\CombinedAPISampleDlg.cpp(1839) : warning C4305: '=' : truncation from 'const double' to 'float'
+G:\myself\CombinedAPISample\CombinedAPISample\CombinedAPISampleDlg.cpp(1839) : warning C4305: '=' : truncation from 'const double' to 'float'
+G:\myself\CombinedAPISample\CombinedAPISample\CombinedAPISampleDlg.cpp(1840) : warning C4305: '=' : truncation from 'const double' to 'float'
+G:\myself\CombinedAPISample\CombinedAPISample\CombinedAPISampleDlg.cpp(1840) : warning C4305: '=' : truncation from 'const double' to 'float'
+G:\myself\CombinedAPISample\CombinedAPISample\CombinedAPISampleDlg.cpp(1840) : warning C4305: '=' : truncation from 'const double' to 'float'
+G:\myself\CombinedAPISample\CombinedAPISample\CombinedAPISampleDlg.cpp(1980) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+G:\myself\CombinedAPISample\CombinedAPISample\CombinedAPISampleDlg.cpp(1987) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+G:\myself\CombinedAPISample\CombinedAPISample\CombinedAPISampleDlg.cpp(1993) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+G:\myself\CombinedAPISample\CombinedAPISample\CombinedAPISampleDlg.cpp(1998) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+G:\myself\CombinedAPISample\CombinedAPISample\CombinedAPISampleDlg.cpp(2018) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+G:\myself\CombinedAPISample\CombinedAPISample\CombinedAPISampleDlg.cpp(2020) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+G:\myself\CombinedAPISample\CombinedAPISample\CombinedAPISampleDlg.cpp(2031) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+G:\myself\CombinedAPISample\CombinedAPISample\CombinedAPISampleDlg.cpp(2033) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+G:\myself\CombinedAPISample\CombinedAPISample\CombinedAPISampleDlg.cpp(1928) : warning C4101: 'buffer' : unreferenced local variable
+G:\myself\CombinedAPISample\CombinedAPISample\CombinedAPISampleDlg.cpp(1954) : warning C4101: 'msg' : unreferenced local variable
+Linking...
+Creating temporary file "C:\Users\HOUZEN~1\AppData\Local\Temp\RSP5F2B.tmp" with contents
+[
+/nologo /o"Debug/CombinedAPISample.bsc" 
+.\Debug\StdAfx.sbr
+.\Debug\CombinedAPISample.sbr
+.\Debug\CombinedAPISampleDlg.sbr
+.\Debug\Comm32.sbr
+.\Debug\CommandConstruction.sbr
+.\Debug\CommandHandling.sbr
+.\Debug\ComPortSettings.sbr
+.\Debug\ComPortTimeout.sbr
+.\Debug\Conversions.sbr
+.\Debug\IlluminatorFiringRate.sbr
+.\Debug\INIFileRW.sbr
+.\Debug\NewAlertFlagsDlg.sbr
+.\Debug\ProgramOptions.sbr
+.\Debug\ROMFileDlg.sbr
+.\Debug\SystemCRC.sbr
+.\Debug\SystemFeaturesDlg.sbr]
+Creating command line "bscmake.exe @C:\Users\HOUZEN~1\AppData\Local\Temp\RSP5F2B.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+CombinedAPISample.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
